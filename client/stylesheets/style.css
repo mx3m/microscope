@@ -111,15 +111,15 @@ body {
     text-decoration: none;
     background: rgba(0, 0, 0, 0.1); }
 
-.posts .spinner-container{
+.posts .spinner-container {
   position: relative;
   height: 100px;
 }
 
-.jumbotron{
+.jumbotron {
   text-align: center;
 }
-.jumbotron h2{
+.jumbotron h2 {
   font-size: 60px;
   font-weight: 100;
 }
@@ -138,7 +138,7 @@ body {
   100% {opacity: 0;}
 }
 
-.errors{
+.errors {
   position: fixed;
   z-index: 10000;
   padding: 10px;
