@@ -9,7 +9,8 @@
 
 body {
   background: #eee;
-  color: #666666; }
+  color: #666666;
+}
 
 #main {
   position: relative;
@@ -21,6 +22,7 @@ body {
 }
 
 .navbar {
+  margin-top: 10px;
   margin-bottom: 10px; }
   /* line 32, ../sass/style.scss */
   .navbar .navbar-inner {
