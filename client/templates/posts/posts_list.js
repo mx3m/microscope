@@ -1,5 +1,5 @@
 Template.postsList.helpers({
   posts: function() {
-    return Posts.find().fetch().reverse();
+    return Posts.find({}, {sort: {submitted: -1}});
   }
 });
